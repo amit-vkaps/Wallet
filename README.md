@@ -1,6 +1,4 @@
-# wallet
-
-## Installation
+## Wallet Installation Process
 
 To install Wallet, you'll want to clone or download this repo:
 
