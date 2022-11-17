@@ -1,1 +1,59 @@
 # wallet
+
+<p align="center"><a href="https://devdojo.com/wave" target="_blank"><img src="https://cdn.devdojo.com/assets/img/github-wave-logo.svg" width="120"></a></p>
+
+## Installation
+
+To install Wallet, you'll want to clone or download this repo:
+
+```
+https://github.com/amit-vkaps/wallet.git
+```
+
+
+Next, we can install Wave with these **4 simple steps**:
+
+### 1. Create a New Database
+
+We'll need to utilize a MySQL database during the installation. For the following stage, you'll need to create a new database and preserve the credentials.
+
+### 2. Copy the `.env.example` file
+
+We need to specify our Environment variables for our application. You will see a file named `.env.example`, you will need to duplicate that file and rename it to `.env`.
+
+Then, open up the `.env` file and update your *DB_DATABASE*, *DB_USERNAME*, and *DB_PASSWORD* in the appropriate fields.
+
+```bash
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=wallet
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+
+
+### 3. Add Composer Dependencies
+
+Following that, we'll need to install all composer dependencies through the following command:
+```php
+composer install
+```
+
+### 4. Run Migrations and Seeds
+
+We must migrate our database schema into our database, which we can accomplish by running the following command:
+```php
+php artisan migrate
+```
+<br>
+Finally, we will need to seed our database with the following command:
+
+```php
+php artisan db:seed
+```
+<br>
+
+```php
+php artisan key:generate
+```
