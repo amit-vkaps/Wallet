@@ -1,7 +1,5 @@
 # wallet
 
-<p align="center"><a href="https://devdojo.com/wave" target="_blank"><img src="https://cdn.devdojo.com/assets/img/github-wave-logo.svg" width="120"></a></p>
-
 ## Installation
 
 To install Wallet, you'll want to clone or download this repo:
