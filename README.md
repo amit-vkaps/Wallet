@@ -9,7 +9,7 @@ https://github.com/amit-vkaps/wallet.git
 ```
 
 
-Next, we can install Wave with these **4 simple steps**:
+Next, we can install project with these **4 simple steps**:
 
 ### 1. Create a New Database
 
@@ -44,7 +44,7 @@ We must migrate our database schema into our database, which we can accomplish b
 ```php
 php artisan migrate
 ```
-<br>
+
 Finally, we will need to seed our database with the following command:
 
 ```php
