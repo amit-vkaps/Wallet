@@ -15,7 +15,7 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        $login_token = base64_encode('user@example.com:12345678')
+        $login_token = base64_encode('user@example.com:12345678');
         User::create([
             'name' => 'User',
             'email' => 'user@example.com',

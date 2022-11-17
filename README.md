@@ -50,8 +50,14 @@ Finally, we will need to seed our database with the following command:
 ```php
 php artisan db:seed
 ```
-<br>
 
 ```php
 php artisan key:generate
+```
+
+### 5. Start Server
+
+We need to start server, if we are working on localhost:
+```php
+php artisan serve
 ```

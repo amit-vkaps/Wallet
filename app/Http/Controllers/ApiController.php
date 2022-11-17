@@ -70,7 +70,7 @@ class ApiController extends Controller
             if($user){
                 return response()->json([
                     'status' => 200,
-                    'message' => 'User created successfully',
+                    'message' => 'User authentication complete',
                     'data' => $user->only(['id', 'name', 'email', 'login_token'])
                 ], Response::HTTP_OK);
             }else{
